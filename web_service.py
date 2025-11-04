@@ -23,7 +23,7 @@ import uvicorn
 # 全局变量
 model = None
 tokenizer = None
-MODEL_PATH = 'deepseek-ai/DeepSeek-OCR'
+MODEL_PATH = '/data/model/DeepSeek-OCR'
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
